@@ -1,0 +1,54 @@
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  text-align: center;
+  margin-top: 60px;
+}
+.body {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.city {
+  margin-top: 50px;
+}
+
+.bigWeather {
+  text-align: right;
+  position: relative;
+  bottom: 80px;
+  right: 50px;
+  font-weight: 600;
+  font-size: 42px;
+}
+
+.weather-app {
+  border: 1px solid grey;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+.searchbox {
+  display: block;
+}
+
+.units {
+  font-size: 16px;
+}
+
+#current-location-button {
+  display: block;
+  text-align: left;
+  position: relative;
+  top: 10px;
+  left: 438px;
+}
