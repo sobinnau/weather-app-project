@@ -44,3 +44,7 @@ p {
 .units {
   font-size: 16px;
 }
+
+#github-link {
+  text-align: center;
+}
