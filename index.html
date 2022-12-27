@@ -45,14 +45,7 @@
               <input type="submit" value="Search" class="form-control" />
             </div>
 
-            <div class="col-3">
-              <button
-                class="btn btn-success w-100"
-                id="current-location-button"
-              >
-                Current
-              </button>
-            </div>
+            <div class="col-3"></div>
           </div>
         </form>
 
@@ -68,7 +61,11 @@
 
         <h1 class="bigWeather">
           <div class="float-left">
-            🌦 <span class="temperature" id="temperature">19</span>
+            🌦 <span class="temperature" id="temperature">19</span
+            ><span class="units">
+              <a href="#" id="celsius-link">°C</a> |
+              <a href="#" id="fahrenheit-link">°F</a>
+            </span>
           </div>
         </h1>
 

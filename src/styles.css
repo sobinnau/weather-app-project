@@ -44,11 +44,3 @@ p {
 .units {
   font-size: 16px;
 }
-
-#current-location-button {
-  display: block;
-  text-align: left;
-  position: relative;
-  top: 10px;
-  left: 438px;
-}
